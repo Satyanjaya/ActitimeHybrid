@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG_test.deleteTypeOfwork"/>
+      <class name="TestNG_test.DeleteAndLogOutLeave"/>
+      <class name="TestNG_test.CreateLeaveAndLogOut"/>
+      <class name="TestNG_test.ActitimeLoginAndLogout"/>
+      <class name="TestNG_test.CreatCustomerAndLogOut"/>
+      <class name="TestNG_test.creatTypeOfWork"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
